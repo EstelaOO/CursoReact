@@ -1,0 +1,20 @@
+
+-bootstrap
+npm install bootstrap react-bootstrap
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+
+npm install react-router-dom
+
+
+npm install font-awesome
+import 'font-awesome/css/font-awesome.min.css';
+
+---------------------git
+cd PF-25235-EO
+
+git log
+git status
+git add .
+git commit -m "nueva actualización"
+git push
