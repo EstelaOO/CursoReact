@@ -13,13 +13,13 @@ const ProductList = ({ category = null }) =>
     let url = 'https://dummyjson.com/products';
     if (category) 
     {
-      url = `https://dummyjson.com/products/products/category/${category}`;
+      url = `https://dummyjson.com/products/category/${category}`;
     }
 
       fetch(url)
       .then((response) => response.json())
       .then((data) => {
-        setProducts(data);
+        setProducts(data.products);
         setLoading(false);
       })
       .catch((error) => {
