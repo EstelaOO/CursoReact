@@ -18,3 +18,21 @@ git status
 git add .
 git commit -m "nueva actualización"
 git push
+
+Creación de la rama: Usá el comando 
+git checkout -b TalentoTach
+para crear y cambiarte a la nueva rama al mismo tiempo.
+
+Verificar la rama actual: Ejecutá 
+git branch 
+para verificar que estés en la rama correcta antes de hacer cambios.
+
+usar 
+git add . 
+seguido de 
+git commit -m "Descripción de los cambios" 
+para registrar los nuevos cambios
+
+Subir la nueva rama a GitHub: Usá 
+git push origin nombre-de-la-rama 
+para subir tu nueva rama al repositorio remoto.
