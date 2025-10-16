@@ -24,9 +24,10 @@ git push
 git config --global user.name "Tu Nombre"
 git config --global user.email "tuemail@ejemplo.com"
 git init: Inicializa un nuevo repositorio en la carpeta actual. Esto crea un .git, que es la carpeta donde se guardan todos los cambios que vas a realizar. git init
-git add: Este comando selecciona los archivos que querés "guardar". Podés agregar archivos específicos o todo de una, con: git add .
-git commit: Crea un "snapshot" de los archivos agregados y guarda un mensaje descriptivo de los cambios.git commit -m "Mensaje descriptivo de los cambios"
-git push: Sube los commits de tu repositorio local a uno remoto en GitHub. git push origin main
+git add .: Este comando selecciona los archivos que querés "guardar". Podés agregar archivos específicos o todo de una, con: git add .
+git commit -m "nueva actualización" : Crea un "snapshot" de los archivos agregados y guarda un mensaje descriptivo de los cambios.git commit -m "Mensaje descriptivo de los cambios"
+git remote add origin https://github.com/teliss88/TalentoTech-React.git : para vincular al repositorio
+git push -u origin master : envia al repositorio que acabamos de crear
 
 -----------
 git checkout -b TalentoTach:    Creación de la rama: Usá el comando "git checkout -b TalentoTach" para crear y cambiarte a la nueva rama al mismo tiempo.
