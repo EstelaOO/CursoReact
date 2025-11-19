@@ -26,7 +26,7 @@ git config --global user.email "tuemail@ejemplo.com"
 git init: Inicializa un nuevo repositorio en la carpeta actual. Esto crea un .git, que es la carpeta donde se guardan todos los cambios que vas a realizar. git init
 git add .: Este comando selecciona los archivos que querés "guardar". Podés agregar archivos específicos o todo de una, con: git add .
 git commit -m "nueva actualización" : Crea un "snapshot" de los archivos agregados y guarda un mensaje descriptivo de los cambios.git commit -m "Mensaje descriptivo de los cambios"
-git remote add origin https://github.com/teliss88/TalentoTech-React.git : para vincular al repositorio
+git remote add origin https://github.com/EstelaOO/CursoReact.git : para vincular al repositorio
 git push -u origin master : envia al repositorio que acabamos de crear
 
 -----------
